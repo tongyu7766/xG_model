@@ -1,0 +1,7 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+shots_raw.pkl
+shots_clean.pkl
+shots_ff.pkl
