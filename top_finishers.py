@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import joblib
 
-df = pd.read_pickle('shots_ff.pkl')
+df = pd.read_pickle('shots_ff2.pkl')
 bundle = joblib.load('xg_model_final.pkl')
 model, FEATURES = bundle['model'], bundle['features']
 
